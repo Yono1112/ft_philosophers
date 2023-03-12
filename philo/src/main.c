@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:54:09 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/12 14:00:44 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/12 14:53:22 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,6 @@
 
 int	main(void)
 {
+	printf("Hello philo");
 	return (0);
 }
