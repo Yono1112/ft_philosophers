@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 22:30:28 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/13 00:21:51 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/13 00:30:52 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,12 +84,12 @@ bool	check_args(int argc, char **argv, t_data *data)
 	data->time_to_eat = ft_atoi(argv[3]);
 	data->time_to_sleep = ft_atoi(argv[4]);
 	if (argc == 6)
-		data->must_eat = ft_atoi(argv[5]);
+		data->must_eat_num = ft_atoi(argv[5]);
 	else
-		data->must_eat = -1;
+		data->must_eat_num = -1;
 	if (data->philo_num < 2 || data->philo_num > 200
 		|| data->time_to_die < 1 || data->time_to_eat < 1
-		|| data->time_to_sleep < 1 || data->must_eat == 0)
+		|| data->time_to_sleep < 1 || data->must_eat_num == 0)
 		return (false);
 	return (true);
 }
