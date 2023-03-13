@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/13 00:31:02 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/14 00:55:05 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,13 @@
 # include <pthread.h>
 # include <sys/time.h>
 # include <limits.h>
+# define MAX_PHILO 200
+
+typedef struct s_philo
+{
+	int	id;
+	int	num_eaten;
+}	t_philo;
 
 typedef struct s_data
 {
@@ -28,6 +35,7 @@ typedef struct s_data
 	time_t	time_to_eat;
 	time_t	time_to_sleep;
 	int		must_eat_num;
+	t_philo	philo[MAX_PHILO];
 }	t_data;
 
 bool	check_args(int argc, char **argv, t_data *data);
