@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 01:30:11 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/14 17:14:14 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/14 17:18:27 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,9 @@ static void	assign_right_fork(t_philo *philo, t_data *data, int i)
 	else
 	{
 		if (i % 2 == 0)
-			philo->mtx_right_fork = &data->mtx_fork[(i + 1)];
-		else
 			philo->mtx_right_fork = &data->mtx_fork[i];
+		else
+			philo->mtx_right_fork = &data->mtx_fork[i + 1];
 	}
 }
 
