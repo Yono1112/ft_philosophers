@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/16 02:23:38 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/16 03:00:42 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ typedef struct s_data
 	int				must_eat_num;
 	t_philo			philo[MAX_PHILO];
 	pthread_mutex_t	mtx_fork[MAX_PHILO];
+	time_t			start_time;
 	bool			stop;
 	pthread_mutex_t	mtx_stop;
 	pthread_mutex_t	mtx_print;
@@ -52,7 +53,7 @@ typedef struct s_data
 bool	check_args(int argc, char **argv, t_data *data);
 int		init_philo(t_data *data);
 int		create_thread(t_data *data);
-void	*philosopher_func(void *arg);
+void	*philo_func(void *arg);
 int		philo_eat(t_philo *philo);
 
 #endif
