@@ -17,6 +17,8 @@ RM = rm -rf
 
 SRCS =	src/main.c	\
 		src/check_args.c	\
+		src/init_philo.c	\
+		src/create_thread.c	\
 
 OBJ_DIR = obj
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)
@@ -30,7 +32,7 @@ $(OBJ_DIR)/%.o: %.c
 	$(CC) $(CFLAGS) $(INC) -c $< -o $@
 
 $(NAME): $(OBJS)
-	$(CC) $(CFLAGS) -o $(NAME) $(OBJS)
+	$(CC) $(CFLAGS) -o $(NAME) $(OBJS) -lpthread
 
 clean:
 	$(RM) $(OBJ_DIR)
