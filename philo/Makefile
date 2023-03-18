@@ -19,6 +19,7 @@ SRCS =	src/main.c	\
 		src/check_args.c	\
 		src/init_philo.c	\
 		src/create_thread.c	\
+		src/monitor_func.c
 
 OBJ_DIR = obj
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)

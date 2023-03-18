@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/16 15:25:44 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/19 00:33:50 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,10 +44,12 @@ typedef struct s_data
 	int				must_eat_num;
 	t_philo			philo[MAX_PHILO];
 	pthread_mutex_t	mtx_fork[MAX_PHILO];
+	pthread_mutex_t	mtx_philo[MAX_PHILO];
 	time_t			start_time;
 	bool			stop;
 	pthread_mutex_t	mtx_stop;
 	pthread_mutex_t	mtx_print;
+	pthread_t		monitor_thread;
 }	t_data;
 
 bool	check_args(int argc, char **argv, t_data *data);
@@ -62,5 +64,6 @@ int		philo_sleep(t_philo *philo);
 int		philo_think(t_philo *philo);
 int		print_message(t_philo *philo, char *message);
 time_t	get_time(void);
+void	*monitor_func(void *arg);
 
 #endif

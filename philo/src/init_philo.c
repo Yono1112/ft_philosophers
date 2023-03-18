@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 01:30:11 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/18 17:00:26 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/18 23:03:28 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,8 @@ int	init_philo(t_data *data)
 	{
 		if (pthread_mutex_init(&data->mtx_fork[i], NULL))
 			return (1);
+		// if (pthread_mutex_init(&data->mtx_philo[i], NULL))
+		// 	return (1);
 		data->philo[i].id = i + 1;
 		data->philo[i].index = i;
 		data->philo[i].num_eaten = 0;
