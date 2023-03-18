@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 19:16:42 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 02:39:25 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/19 03:14:29 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,12 +96,10 @@ int	eat_timestamp(t_philo *philo)
 	return (0);
 }
 
-int eat_numcount(t_philo *philo)
+int eat_countnum(t_philo *philo)
 {
 	pthread_mutex_lock(&philo->data->mtx_philo[philo->index]);
 	philo->num_eaten++;
-	if (philo->num_eaten == philo->data->must_eat_num)
-		philo->data->stop = true;
 	pthread_mutex_unlock(&philo->data->mtx_philo[philo->index]);
 	return (0);
 }
@@ -120,7 +118,7 @@ int	philo_eat(t_philo *philo)
 		unlock_forks(philo);
 		return (1);
 	}
-	if (eat_numcount(philo))
+	if (eat_countnum(philo))
 	{
 		unlock_forks(philo);
 		return (1);
@@ -147,6 +145,7 @@ int	philo_think(t_philo *philo)
 {
 	if (print_message(philo, "is thinking"))
 		return (1);
+	usleep(100);
 	return (0);
 }
 
@@ -163,8 +162,6 @@ void	*philo_func(void *arg)
 		usleep(200);
 	while (1)
 	{
-		if (philo->data->stop == 1)
-			break ;
 		if (philo_eat(philo))
 			break ;
 		if (philo_sleep(philo))
