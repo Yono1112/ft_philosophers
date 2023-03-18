@@ -20,3 +20,5 @@
 	1. pthread_mutex_destroy
 
 - stopやnum_eatenを参照するときはpthread_mutex_tの変数をlockしてから参照する
+- philoが1人の時の処理
+- 
