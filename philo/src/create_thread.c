@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 19:16:42 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/18 17:03:54 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/18 17:31:08 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,8 @@ time_t	get_time(void)
 	struct timeval	tv;
 	time_t			time;
 
-	gettimeofday(&tv, NULL);
+	if (gettimeofday(&tv, NULL))
+		return (0);
 	time = tv.tv_sec * 1000 + tv.tv_usec / 1000;
 	return (time);
 }
@@ -85,6 +86,8 @@ int	philo_eat(t_philo *philo)
 	if (lock_forks(philo))
 		return (1);
 	philo->last_eat_time = get_time();
+	if (!philo->last_eat_time)
+		return (1);
 	philo->num_eaten++;
 	if (philo->num_eaten == philo->data->must_eat_num)
 		philo->data->stop = 1;
