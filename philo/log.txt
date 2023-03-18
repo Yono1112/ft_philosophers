@@ -1,1500 +1,272 @@
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[3] has released forks.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[3] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[0] has released forks.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[3] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[3] has gotten forks.
-Philosopher[3] is eating.
-Philosopher[3] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[2] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[1] has released forks.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[4] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[2] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[2] has gotten forks.
-Philosopher[2] is eating.
-Philosopher[2] has released forks.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[1] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has released forks.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[1] has gotten forks.
-Philosopher[1] is eating.
-Philosopher[4] has released forks.
-Philosopher[1] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
-Philosopher[4] has gotten forks.
-Philosopher[4] is eating.
-Philosopher[4] has released forks.
-Philosopher[0] has gotten forks.
-Philosopher[0] is eating.
-Philosopher[0] has released forks.
+philo_num: 5, time_to_die: 200, time_to_eat: 200, time_to_sleep: 200, must_eat: 10
+start init_philo
+end init_philo
+start create_thread
+5
+1678949448435 1 has taken a fork
+1678949448435 1 has taken a fork
+1678949448435 1 is eating
+1678949448435 3 has taken a fork
+1678949448435 3 has taken a fork
+1678949448435 3 is eating
+1678949448435 5 has taken a fork
+1678949448640 1 has released forks
+1678949448640 3 has released forks
+1678949448640 3 is sleeping
+1678949448640 5 has taken a fork
+1678949448640 5 is eating
+1678949448640 2 has taken a fork
+1678949448640 2 has taken a fork
+1678949448640 2 is eating
+1678949448640 1 is sleeping
+1678949448840 2 has released forks
+1678949448840 2 is sleeping
+1678949448840 5 has released forks
+1678949448840 5 is sleeping
+1678949448840 4 has taken a fork
+1678949448840 4 has taken a fork
+1678949448840 4 is eating
+1678949448845 3 is thinking
+1678949448845 3 has taken a fork
+1678949448845 1 is thinking
+1678949448845 1 has taken a fork
+1678949448845 1 has taken a fork
+1678949448845 1 is eating
+1678949449041 5 is thinking
+1678949449045 2 is thinking
+1678949449045 1 has released forks
+1678949449045 1 is sleeping
+1678949449045 4 has released forks
+1678949449045 4 is sleeping
+1678949449045 5 has taken a fork
+1678949449045 5 has taken a fork
+1678949449045 5 is eating
+1678949449045 3 has taken a fork
+1678949449045 3 is eating
+1678949449249 1 is thinking
+1678949449249 5 has released forks
+1678949449249 5 is sleeping
+1678949449249 1 has taken a fork
+1678949449249 1 has taken a fork
+1678949449249 1 is eating
+1678949449250 4 is thinking
+1678949449250 4 has taken a fork
+1678949449250 3 has released forks
+1678949449250 3 is sleeping
+1678949449250 2 has taken a fork
+1678949449250 4 has taken a fork
+1678949449250 4 is eating
+1678949449449 1 has released forks
+1678949449449 1 is sleeping
+1678949449449 2 has taken a fork
+1678949449449 2 is eating
+1678949449450 5 is thinking
+1678949449452 3 is thinking
+1678949449452 4 has released forks
+1678949449452 4 is sleeping
+1678949449452 5 has taken a fork
+1678949449452 5 has taken a fork
+1678949449452 5 is eating
+1678949449650 1 is thinking
+1678949449650 3 has taken a fork
+1678949449650 3 has taken a fork
+1678949449650 3 is eating
+1678949449650 2 has released forks
+1678949449650 2 is sleeping
+1678949449657 4 is thinking
+1678949449657 5 has released forks
+1678949449657 5 is sleeping
+1678949449657 4 has taken a fork
+1678949449657 1 has taken a fork
+1678949449657 1 has taken a fork
+1678949449657 1 is eating
+1678949449855 2 is thinking
+1678949449855 2 has taken a fork
+1678949449855 3 has released forks
+1678949449855 3 is sleeping
+1678949449855 4 has taken a fork
+1678949449855 4 is eating
+1678949449862 5 is thinking
+1678949449862 1 has released forks
+1678949449862 1 is sleeping
+1678949449862 2 has taken a fork
+1678949449862 2 is eating
+1678949450060 3 is thinking
+1678949450060 4 has released forks
+1678949450060 4 is sleeping
+1678949450060 5 has taken a fork
+1678949450060 5 has taken a fork
+1678949450060 5 is eating
+1678949450064 1 is thinking
+1678949450064 2 has released forks
+1678949450064 2 is sleeping
+1678949450064 3 has taken a fork
+1678949450064 3 has taken a fork
+1678949450064 3 is eating
+1678949450265 2 is thinking
+1678949450265 5 has released forks
+1678949450265 5 is sleeping
+1678949450265 3 has released forks
+1678949450265 3 is sleeping
+1678949450265 4 is thinking
+1678949450265 4 has taken a fork
+1678949450265 1 has taken a fork
+1678949450265 1 has taken a fork
+1678949450265 1 is eating
+1678949450265 2 has taken a fork
+1678949450265 4 has taken a fork
+1678949450265 4 is eating
+1678949450467 3 is thinking
+1678949450467 1 has released forks
+1678949450467 1 is sleeping
+1678949450467 2 has taken a fork
+1678949450467 2 is eating
+1678949450467 4 has released forks
+1678949450467 4 is sleeping
+1678949450467 5 is thinking
+1678949450467 5 has taken a fork
+1678949450467 5 has taken a fork
+1678949450467 5 is eating
+1678949450667 1 is thinking
+1678949450667 4 is thinking
+1678949450668 2 has released forks
+1678949450668 2 is sleeping
+1678949450668 3 has taken a fork
+1678949450668 3 has taken a fork
+1678949450668 3 is eating
+1678949450671 5 has released forks
+1678949450671 5 is sleeping
+1678949450671 4 has taken a fork
+1678949450671 1 has taken a fork
+1678949450671 1 has taken a fork
+1678949450671 1 is eating
+1678949450873 2 is thinking
+1678949450873 3 has released forks
+1678949450873 4 has taken a fork
+1678949450873 4 is eating
+1678949450873 3 is sleeping
+1678949450873 5 is thinking
+1678949450873 2 has taken a fork
+1678949450876 1 has released forks
+1678949450876 1 is sleeping
+1678949450876 2 has taken a fork
+1678949450876 2 is eating
+1678949451078 3 is thinking
+1678949451078 2 has released forks
+1678949451078 2 is sleeping
+1678949451078 3 has taken a fork
+1678949451078 5 has taken a fork
+1678949451078 5 has taken a fork
+1678949451078 5 is eating
+1678949451078 4 has released forks
+1678949451078 4 is sleeping
+1678949451078 3 has taken a fork
+1678949451078 3 is eating
+1678949451079 1 is thinking
+1678949451279 5 has released forks
+1678949451279 5 is sleeping
+1678949451279 4 is thinking
+1678949451279 4 has taken a fork
+1678949451279 1 has taken a fork
+1678949451279 1 has taken a fork
+1678949451279 1 is eating
+1678949451280 3 has released forks
+1678949451280 3 is sleeping
+1678949451280 4 has taken a fork
+1678949451280 4 is eating
+1678949451281 2 is thinking
+1678949451281 2 has taken a fork
+1678949451481 1 has released forks
+1678949451481 1 is sleeping
+1678949451481 2 has taken a fork
+1678949451481 2 is eating
+1678949451482 4 has released forks
+1678949451482 4 is sleeping
+1678949451484 5 is thinking
+1678949451484 5 has taken a fork
+1678949451484 5 has taken a fork
+1678949451484 5 is eating
+1678949451485 3 is thinking
+1678949451684 2 has released forks
+1678949451684 2 is sleeping
+1678949451684 3 has taken a fork
+1678949451684 3 has taken a fork
+1678949451684 3 is eating
+1678949451685 1 is thinking
+1678949451687 5 has released forks
+1678949451687 5 is sleeping
+1678949451687 1 has taken a fork
+1678949451687 1 has taken a fork
+1678949451687 1 is eating
+1678949451687 4 is thinking
+1678949451687 4 has taken a fork
+1678949451884 2 is thinking
+1678949451887 1 has released forks
+1678949451887 1 is sleeping
+1678949451887 3 has released forks
+1678949451887 3 is sleeping
+1678949451887 2 has taken a fork
+1678949451887 2 has taken a fork
+1678949451887 2 is eating
+1678949451887 4 has taken a fork
+1678949451887 4 is eating
+1678949451888 5 is thinking
+1678949452087 3 is thinking
+1678949452088 4 has released forks
+1678949452088 4 is sleeping
+1678949452088 5 has taken a fork
+1678949452088 5 has taken a fork
+1678949452088 5 is eating
+1678949452088 3 has taken a fork
+1678949452088 3 has taken a fork
+1678949452088 3 is eating
+1678949452087 2 has released forks
+1678949452088 2 is sleeping
+1678949452087 1 is thinking
+1678949452289 3 has released forks
+1678949452289 3 is sleeping
+1678949452293 2 is thinking
+1678949452293 5 has released forks
+1678949452293 5 is sleeping
+1678949452293 2 has taken a fork
+1678949452293 2 has taken a fork
+1678949452293 2 is eating
+1678949452293 1 has taken a fork
+1678949452293 4 is thinking
+1678949452293 4 has taken a fork
+1678949452293 4 has taken a fork
+1678949452293 4 is eating
+1678949452490 3 is thinking
+1678949452495 5 is thinking
+1678949452496 4 has released forks
+1678949452496 4 is sleeping
+1678949452496 5 has taken a fork
+1678949452498 2 has released forks
+1678949452498 2 is sleeping
+1678949452498 3 has taken a fork
+1678949452498 3 has taken a fork
+1678949452498 3 is eating
+1678949452498 1 has taken a fork
+1678949452498 1 is eating
+1678949452697 4 is thinking
+1678949452698 2 is thinking
+1678949452699 3 has released forks
+1678949452699 3 is sleeping
+1678949452699 2 has taken a fork
+1678949452701 1 has released forks
+1678949452701 1 is sleeping
+1678949452701 5 has taken a fork
+1678949452701 5 is eating
+1678949452701 2 has taken a fork
+1678949452701 2 is eating
+1678949452902 5 has released forks
+1678949452902 4 has taken a fork
+1678949452902 4 has taken a fork
+1678949452902 4 is eating
+1678949452902 5 is sleeping
+1678949452902 1 is thinking
+1678949452902 1 has taken a fork
+1678949452902 2 has released forks
+1678949452902 2 is sleeping
+1678949452902 1 has taken a fork
+end create_thread

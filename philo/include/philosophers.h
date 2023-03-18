@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/16 03:00:42 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/16 15:25:44 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,5 +55,12 @@ int		init_philo(t_data *data);
 int		create_thread(t_data *data);
 void	*philo_func(void *arg);
 int		philo_eat(t_philo *philo);
+int		lock_forks(t_philo	*philo);
+void	unlock_forks(t_philo *philo);
+int		philo_eat(t_philo *philo);
+int		philo_sleep(t_philo *philo);
+int		philo_think(t_philo *philo);
+int		print_message(t_philo *philo, char *message);
+time_t	get_time(void);
 
 #endif

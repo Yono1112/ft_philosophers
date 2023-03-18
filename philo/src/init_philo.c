@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 01:30:11 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/16 02:13:56 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/18 17:00:26 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,14 +51,12 @@ static void	assign_left_fork(t_philo *philo, t_data *data, int i)
 int	init_philo(t_data *data)
 {
 	int	i;
-	int	ret;
 
 	printf("start init_philo\n");
 	i = 0;
 	while (i < data->philo_num)
 	{
-		ret = pthread_mutex_init(&data->mtx_fork[i], NULL);
-		if (ret != 0)
+		if (pthread_mutex_init(&data->mtx_fork[i], NULL))
 			return (1);
 		data->philo[i].id = i + 1;
 		data->philo[i].index = i;
@@ -68,6 +66,10 @@ int	init_philo(t_data *data)
 		assign_right_fork(&data->philo[i], data, i);
 		i++;
 	}
+	if (pthread_mutex_init(&data->mtx_print, NULL))
+		return (1);
+	if (pthread_mutex_init(&data->mtx_stop, NULL))
+		return (1);
 	printf("end init_philo\n");
 	return (0);
 }
