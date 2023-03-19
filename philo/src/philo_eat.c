@@ -6,13 +6,13 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/19 03:44:58 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 03:45:22 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/19 03:53:39 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers.h"
 
-static int	eat_timestamp(t_philo *philo)
+static int	eat_timestamp_and_wait(t_philo *philo)
 {
 	time_t	current_time;
 
@@ -27,7 +27,7 @@ static int	eat_timestamp(t_philo *philo)
 	return (0);
 }
 
-static int eat_countnum(t_philo *philo)
+static int	eat_countnum(t_philo *philo)
 {
 	pthread_mutex_lock(&philo->data->mtx_philo[philo->index]);
 	philo->num_eaten++;
@@ -44,7 +44,7 @@ int	philo_eat(t_philo *philo)
 		unlock_forks(philo);
 		return (1);
 	}
-	if (eat_timestamp(philo))
+	if (eat_timestamp_and_wait(philo))
 	{
 		unlock_forks(philo);
 		return (1);

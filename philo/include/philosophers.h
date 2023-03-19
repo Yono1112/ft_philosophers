@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 00:33:50 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/19 03:54:32 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ typedef struct s_philo
 	int				index;
 	int				num_eaten;
 	time_t			last_eat_time;
-	pthread_t		thread;
+	pthread_t		philo_thread;
 	pthread_mutex_t	*mtx_right_fork;
 	pthread_mutex_t	*mtx_left_fork;
 }	t_philo;

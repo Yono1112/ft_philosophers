@@ -19,7 +19,11 @@ SRCS =	src/main.c	\
 		src/check_args.c	\
 		src/init_philo.c	\
 		src/create_thread.c	\
-		src/monitor_func.c
+		src/monitor_func.c	\
+		src/philo_eat.c		\
+		src/philo_fork.c	\
+		src/philo_sleep.c	\
+		src/philo_think.c	\
 
 OBJ_DIR = obj
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)

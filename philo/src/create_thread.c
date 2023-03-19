@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 19:16:42 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 03:47:05 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/19 03:55:14 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ int	create_thread(t_data *data)
 	printf("%d\n", data->philo_num);
 	while (i < data->philo_num)
 	{
-		pthread_create(&data->philo[i].thread,
+		pthread_create(&data->philo[i].philo_thread,
 			NULL, philo_func, &data->philo[i]);
 		i++;
 	}
@@ -96,7 +96,7 @@ int	create_thread(t_data *data)
 	i = 0;
 	while (i < data->philo_num)
 	{
-		pthread_join(data->philo[i].thread, NULL);
+		pthread_join(data->philo[i].philo_thread, NULL);
 		i++;
 	}
 	printf("end create_thread\n");
