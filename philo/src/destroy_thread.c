@@ -1,29 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   destroy_thread.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/12 13:54:09 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 14:28:02 by yumaohno         ###   ########.fr       */
+/*   Created: 2023/03/19 14:28:25 by yumaohno          #+#    #+#             */
+/*   Updated: 2023/03/19 14:45:39 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers.h"
 
-int	main(int argc, char **argv)
+int	destroy_thread(t_data *data)
 {
-	t_data	data;
+	int	i;
 
-	if (!check_args(argc, argv, &data))
+	i = 0;
+	if (pthread_mutex_destroy(&data->mtx_print))
 		return (1);
-	printf("philo_num: %d, time_to_die: %ld, time_to_eat: %ld, time_to_sleep: %ld, must_eat: %d\n", data.philo_num, data.time_to_die, data.time_to_eat, data.time_to_sleep, data.must_eat_num);
-	if (init_philo(&data))
+	if (pthread_mutex_destroy(&data->mtx_stop))
 		return (1);
-	if (create_thread(&data))
-		return (1);
-	if (destroy_thread(&data))
-		return (1);
+	while (i < data->philo_num)
+	{
+		if (pthread_mutex_destroy(&data->mtx_fork[i]))
+			return (1);
+		if (pthread_mutex_destroy(&data->mtx_philo[i]))
+			return (1);
+		i++;
+	}
 	return (0);
 }

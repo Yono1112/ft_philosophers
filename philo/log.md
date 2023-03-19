@@ -18,6 +18,8 @@
 	1. pthread_join(philo)
 	1. pthread_join(monitor)
 	1. pthread_mutex_destroy
+		- pthread_mutex_destroy関数は、通常はエラーを返さないことが期待されますが、ミューテックスをロックしている場合にはEBUSYエラーを返すことがあるため、エラー処理を行うことが望ましいです。
+		- また、pthread_mutex_t型のミューテックスが初期化されていない場合や、すでに破棄されている場合にも未定義の動作が発生する可能性があるため、エラー処理を行うことが重要です。
 
 - stopやnum_eatenを参照するときはpthread_mutex_tの変数をlockしてから参照する
 - philoが1人の時の処理

@@ -24,6 +24,7 @@ SRCS =	src/main.c	\
 		src/philo_fork.c	\
 		src/philo_sleep.c	\
 		src/philo_think.c	\
+		src/destroy_thread.c
 
 OBJ_DIR = obj
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)

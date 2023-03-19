@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 03:54:32 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/19 14:29:07 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,5 +65,6 @@ int		philo_think(t_philo *philo);
 int		print_message(t_philo *philo, char *message);
 time_t	get_time(void);
 void	*monitor_func(void *arg);
+int		destroy_thread(t_data *data);
 
 #endif
