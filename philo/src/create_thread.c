@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 19:16:42 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 03:55:14 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/19 03:55:14y yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,23 +39,6 @@ time_t	get_time(void)
 	return (time);
 }
 
-int	print_message(t_philo *philo, char *message)
-{
-	pthread_mutex_lock(&philo->data->mtx_print);
-	pthread_mutex_lock(&philo->data->mtx_stop);
-	if (philo->data->stop == true)
-	{
-		pthread_mutex_unlock(&philo->data->mtx_stop);
-		pthread_mutex_unlock(&philo->data->mtx_print);
-		return (1);
-	}
-	pthread_mutex_unlock(&philo->data->mtx_stop);
-	printf("%ld %d %s\n", get_time() - philo->data->start_time,
-		philo->id, message);
-	pthread_mutex_unlock(&philo->data->mtx_print);
-	return (0);
-}
-
 void	*philo_func(void *arg)
 {
 	t_philo	*philo;
@@ -85,7 +68,6 @@ int	create_thread(t_data *data)
 
 	i = 0;
 	printf("start create_thread\n");
-	printf("%d\n", data->philo_num);
 	while (i < data->philo_num)
 	{
 		pthread_create(&data->philo[i].philo_thread,

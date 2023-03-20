@@ -14,7 +14,7 @@ NAME = philo
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 RM = rm -rf
-
+DEBUG_FLAG = -fsanitize=thread
 SRCS =	src/main.c	\
 		src/check_args.c	\
 		src/init_philo.c	\
@@ -24,6 +24,7 @@ SRCS =	src/main.c	\
 		src/philo_fork.c	\
 		src/philo_sleep.c	\
 		src/philo_think.c	\
+		src/print_message.c	\
 		src/destroy_thread.c
 
 OBJ_DIR = obj
@@ -46,6 +47,9 @@ clean:
 fclean: clean
 	$(RM) $(NAME)
 
+debug: CFLAGS += $(DEBUG_FLAG)
+debug: re
+
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re debug
