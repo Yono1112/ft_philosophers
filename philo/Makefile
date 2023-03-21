@@ -18,7 +18,7 @@ DEBUG_FLAG = -fsanitize=thread
 SRCS =	src/main.c	\
 		src/check_args.c	\
 		src/init_philo.c	\
-		src/create_thread.c	\
+		src/philo_thread.c	\
 		src/monitor_func.c	\
 		src/philo_eat.c		\
 		src/philo_fork.c	\

@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/19 03:47:08 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/21 20:02:25 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 22:25:02 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,5 +40,4 @@ int	unlock_forks(t_philo *philo, int ret_flag)
 		return (RET_ERROR);
 	else
 		return (RET_SUCCESS);
-	// print_message(philo, "has released forks");
 }

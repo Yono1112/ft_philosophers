@@ -32,6 +32,7 @@
 		- 原因はおそらくmonitorで競合してる
 		- done
 	- monitorでdeathを確認した後にもまだmutexがlockしていてdestroyできていない
+		- done
 	- must_eat_numが与えられなかったときにdata->philo[i].num_eatenが-1以上になってそのまま処理が終了してしまう
 		- dataの構造体にmust_eat_numが引数で渡されたかどうかをもつflagを作って条件式に入れる(bool is_must_eat_num)
 		- done

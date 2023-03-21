@@ -70,6 +70,7 @@ int	create_thread(t_data *data)
 		pthread_join(data->philo[i].philo_thread, NULL);
 		i++;
 	}
+	pthread_join(data->monitor_thread, NULL);
 	printf("end create_thread\n");
 	return (RET_SUCCESS);
 }

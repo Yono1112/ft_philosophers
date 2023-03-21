@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 22:30:28 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/21 18:28:02 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 23:02:05 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,27 +58,8 @@ static int	ft_atoi(const char *str)
 	return (result * flag);
 }
 
-bool	check_args(int argc, char **argv, t_data *data)
+static void	parse_args(t_data *data, int argc, char **argv)
 {
-	int		i;
-	int		j;
-
-	if (argc != 5 && argc != 6)
-		return (false);
-	i = 1;
-	while (i < argc)
-	{
-		j = 0;
-		if (argv[i][j] == '-' || argv[i][j] == '+')
-			j++;
-		while (argv[i][j])
-		{
-			if (argv[i][j] < '0' || argv[i][j] > '9')
-				return (false);
-			j++;
-		}
-		i++;
-	}
 	data->philo_num = ft_atoi(argv[1]);
 	data->time_to_die = ft_atoi(argv[2]);
 	data->time_to_eat = ft_atoi(argv[3]);
@@ -91,11 +72,42 @@ bool	check_args(int argc, char **argv, t_data *data)
 	else
 	{
 		data->is_must_eat_num = false;
-		data->must_eat_num = -1;
+		data->must_eat_num = 0;
 	}
+}
+
+static bool	check_num(int argc, char **argv)
+{
+	int		i;
+	int		j;
+
+	i = 1;
+	while (i < argc)
+	{
+		j = 0;
+		if (argv[i][j] == '-' || argv[i][j] == '+')
+			j++;
+		while (argv[i][j])
+		{
+			if (argv[i][j] < '0' || '9' < argv[i][j])
+				return (false);
+			j++;
+		}
+		i++;
+	}
+	return (true);
+}
+
+bool	check_args(int argc, char **argv, t_data *data)
+{
+	if (argc != 5 && argc != 6)
+		return (false);
+	if (!check_num(argc, argv))
+		return (false);
+	parse_args(data, argc, argv);
 	if (data->philo_num < 1 || data->philo_num > 200
 		|| data->time_to_die < 1 || data->time_to_eat < 1
-		|| data->time_to_sleep < 1 || data->must_eat_num == 0)
+		|| data->time_to_sleep < 1 || data->must_eat_num < 0)
 		return (false);
 	return (true);
 }
