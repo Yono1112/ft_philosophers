@@ -22,11 +22,14 @@
 		- また、pthread_mutex_t型のミューテックスが初期化されていない場合や、すでに破棄されている場合にも未定義の動作が発生する可能性があるため、エラー処理を行うことが重要です。
 
 - stopやnum_eatenを参照するときはpthread_mutex_tの変数をlockしてから参照する
+	- done
 - philoが1人の時の処理
 - destoy
-error
-- data raceが起きている
-	- 原因はおそらくmonitorで競合してる
-- monitorでdeathを確認した後にもまだmutexがlockしていてdestroyできていない
-- must_eat_numが与えられなかったときにdata->philo[i].num_eatenが-1以上になってそのまま処理が終了してしまう
-	- dataの構造体にmust_eat_numが引数で渡されたかどうかをもつflagを作って条件式に入れる(bool is_must_eat_num)
+	- done
+- error
+	- data raceが起きている
+		- 原因はおそらくmonitorで競合してる
+	- monitorでdeathを確認した後にもまだmutexがlockしていてdestroyできていない
+	- must_eat_numが与えられなかったときにdata->philo[i].num_eatenが-1以上になってそのまま処理が終了してしまう
+		- dataの構造体にmust_eat_numが引数で渡されたかどうかをもつflagを作って条件式に入れる(bool is_must_eat_num)
+		- done

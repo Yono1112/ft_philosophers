@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/19 14:28:25 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/21 18:46:50 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 19:09:51 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,11 @@ int	destroy_thread(t_data *data)
 {
 	int	i;
 
-	i = 0;
 	if (pthread_mutex_destroy(&data->mtx_print))
 		return (RET_ERROR);
 	if (pthread_mutex_destroy(&data->mtx_stop))
 		return (RET_ERROR);
+	i = 0;
 	while (i < data->philo_num)
 	{
 		if (pthread_mutex_destroy(&data->mtx_fork[i]))
@@ -29,5 +29,5 @@ int	destroy_thread(t_data *data)
 			return (RET_ERROR);
 		i++;
 	}
-	return (0);
+	return (RET_SUCCESS);
 }

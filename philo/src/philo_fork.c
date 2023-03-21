@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/19 03:47:08 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/21 18:49:57 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 19:57:10 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,11 @@
 int	lock_forks(t_philo	*philo)
 {
 	pthread_mutex_lock(philo->mtx_right_fork);
-	if (print_message(philo, "has taken a fork"))
+	if (print_message(philo, "has taken a fork") || philo->data->philo_num == 1)
 	{
 		pthread_mutex_unlock(philo->mtx_right_fork);
+		if (philo->data->philo_num == 1)
+			usleep(philo->data->time_to_die * 1000 + 1000);
 		return (RET_ERROR);
 	}
 	pthread_mutex_lock(philo->mtx_left_fork);
