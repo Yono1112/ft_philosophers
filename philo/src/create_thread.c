@@ -28,17 +28,6 @@
 // 	return (NULL);
 // }
 
-time_t	get_time(void)
-{
-	struct timeval	tv;
-	time_t			time;
-
-	if (gettimeofday(&tv, NULL))
-		return (0);
-	time = tv.tv_sec * 1000 + tv.tv_usec / 1000;
-	return (time);
-}
-
 void	*philo_func(void *arg)
 {
 	t_philo	*philo;
