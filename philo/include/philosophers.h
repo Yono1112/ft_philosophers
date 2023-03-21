@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/21 18:25:35 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 18:42:26 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@
 # include <sys/time.h>
 # include <limits.h>
 # define MAX_PHILO 200
+# define RET_ERROR 1
+# define RET_SUCCESS 0
 
 typedef struct s_philo
 {
@@ -59,7 +61,7 @@ int		create_thread(t_data *data);
 void	*philo_func(void *arg);
 int		philo_eat(t_philo *philo);
 int		lock_forks(t_philo	*philo);
-void	unlock_forks(t_philo *philo);
+int		unlock_forks(t_philo *philo, int ret_flag);
 int		philo_eat(t_philo *philo);
 int		philo_sleep(t_philo *philo);
 int		philo_think(t_philo *philo);

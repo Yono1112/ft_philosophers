@@ -71,5 +71,5 @@ int	create_thread(t_data *data)
 		i++;
 	}
 	printf("end create_thread\n");
-	return (0);
+	return (RET_SUCCESS);
 }

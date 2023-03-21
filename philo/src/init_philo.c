@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 01:30:11 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/20 17:27:36 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 18:48:20 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,9 +57,9 @@ int	init_philo(t_data *data)
 	while (i < data->philo_num)
 	{
 		if (pthread_mutex_init(&data->mtx_fork[i], NULL))
-			return (1);
+			return (RET_ERROR);
 		if (pthread_mutex_init(&data->mtx_philo[i], NULL))
-			return (1);
+			return (RET_ERROR);
 		data->philo[i].id = i + 1;
 		data->philo[i].index = i;
 		data->philo[i].num_eaten = 0;
@@ -69,9 +69,9 @@ int	init_philo(t_data *data)
 		i++;
 	}
 	if (pthread_mutex_init(&data->mtx_print, NULL))
-		return (1);
+		return (RET_ERROR);
 	if (pthread_mutex_init(&data->mtx_stop, NULL))
-		return (1);
+		return (RET_ERROR);
 	printf("end init_philo\n");
-	return (0);
+	return (RET_SUCCESS);
 }

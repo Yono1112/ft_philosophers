@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/19 03:44:58 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/21 18:37:31 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 18:49:42 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,13 @@ static int	eat_timestamp_and_wait(t_philo *philo)
 
 	current_time = get_time();
 	if (!current_time)
-		return (1);
+		return (RET_ERROR);
 	pthread_mutex_lock(&philo->data->mtx_philo[philo->index]);
 	philo->last_eat_time = current_time;
 	pthread_mutex_unlock(&philo->data->mtx_philo[philo->index]);
 	while (philo->data->time_to_eat > get_time() - current_time)
 		usleep(100);
-	return (0);
+	return (RET_SUCCESS);
 }
 
 static int	eat_countnum(t_philo *philo)
@@ -32,28 +32,19 @@ static int	eat_countnum(t_philo *philo)
 	pthread_mutex_lock(&philo->data->mtx_philo[philo->index]);
 	philo->num_eaten++;
 	pthread_mutex_unlock(&philo->data->mtx_philo[philo->index]);
-	return (0);
+	return (RET_SUCCESS);
 }
 
 int	philo_eat(t_philo *philo)
 {
 	if (lock_forks(philo))
-		return (1);
+		return (RET_ERROR);
 	if (print_message(philo, "is eating"))
-	{
-		unlock_forks(philo);
-		return (1);
-	}
+		return (unlock_forks(philo, RET_ERROR));
 	if (eat_timestamp_and_wait(philo))
-	{
-		unlock_forks(philo);
-		return (1);
-	}
+		return (unlock_forks(philo, RET_ERROR));
 	if (eat_countnum(philo))
-	{
-		unlock_forks(philo);
-		return (1);
-	}
-	unlock_forks(philo);
-	return (0);
+		return (unlock_forks(philo, RET_ERROR));
+	unlock_forks(philo, RET_SUCCESS);
+	return (RET_SUCCESS);
 }

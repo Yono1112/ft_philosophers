@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 17:45:49 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/20 17:49:29 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 18:50:47 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ int	print_message(t_philo *philo, char *message)
 	{
 		pthread_mutex_unlock(&philo->data->mtx_stop);
 		pthread_mutex_unlock(&philo->data->mtx_print);
-		return (1);
+		return (RET_ERROR);
 	}
 	pthread_mutex_unlock(&philo->data->mtx_stop);
 	printf("%ld %d %s\n", get_time() - philo->data->start_time,
 		philo->id, message);
 	pthread_mutex_unlock(&philo->data->mtx_print);
-	return (0);
+	return (RET_SUCCESS);
 }

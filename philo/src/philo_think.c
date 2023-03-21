@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/19 03:45:59 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/20 16:56:56 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 18:50:36 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	philo_think(t_philo *philo)
 {
 	if (print_message(philo, "is thinking"))
-		return (1);
+		return (RET_ERROR);
 	usleep(100);
-	return (0);
+	return (RET_SUCCESS);
 }
