@@ -33,8 +33,6 @@ void	*philo_func(void *arg)
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
-	philo->data->start_time = get_time();
-	philo->last_eat_time = get_time();
 	if (!philo->data->start_time || !philo->last_eat_time)
 		return (NULL);
 	if (philo->id % 2 == 0)
@@ -57,8 +55,10 @@ int	create_thread(t_data *data)
 
 	i = 0;
 	printf("start create_thread\n");
+	data->start_time = get_time();
 	while (i < data->philo_num)
 	{
+		data->philo[i].last_eat_time = data->start_time;
 		pthread_create(&data->philo[i].philo_thread,
 			NULL, philo_func, &data->philo[i]);
 		i++;

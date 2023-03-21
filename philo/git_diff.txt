@@ -1,0 +1,89 @@
+diff --git a/philo/include/philosophers.h b/philo/include/philosophers.h
+index 3e70aa2..375b336 100644
+--- a/philo/include/philosophers.h
++++ b/philo/include/philosophers.h
+@@ -6,7 +6,7 @@
+ /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
+-/*   Updated: 2023/03/21 18:42:26 by yumaohno         ###   ########.fr       */
++/*   Updated: 2023/03/21 21:08:10 by yumaohno         ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+@@ -45,13 +45,13 @@ typedef struct s_data
+ 	time_t			time_to_sleep;
+ 	int				must_eat_num;
+ 	bool			is_must_eat_num;
++	time_t			start_time;
+ 	t_philo			philo[MAX_PHILO];
+-	pthread_mutex_t	mtx_fork[MAX_PHILO];
+ 	pthread_mutex_t	mtx_philo[MAX_PHILO];
+-	time_t			start_time;
++	pthread_mutex_t	mtx_fork[MAX_PHILO];
++	pthread_mutex_t	mtx_print;
+ 	bool			stop;
+ 	pthread_mutex_t	mtx_stop;
+-	pthread_mutex_t	mtx_print;
+ 	pthread_t		monitor_thread;
+ }	t_data;
+ 
+diff --git a/philo/src/create_thread.c b/philo/src/create_thread.c
+index 74af746..f39130a 100644
+--- a/philo/src/create_thread.c
++++ b/philo/src/create_thread.c
+@@ -33,8 +33,6 @@ void	*philo_func(void *arg)
+ 	t_philo	*philo;
+ 
+ 	philo = (t_philo *)arg;
+-	philo->data->start_time = get_time();
+-	philo->last_eat_time = get_time();
+ 	if (!philo->data->start_time || !philo->last_eat_time)
+ 		return (NULL);
+ 	if (philo->id % 2 == 0)
+@@ -57,8 +55,10 @@ int	create_thread(t_data *data)
+ 
+ 	i = 0;
+ 	printf("start create_thread\n");
++	data->start_time = get_time();
+ 	while (i < data->philo_num)
+ 	{
++		data->philo[i].last_eat_time = data->start_time;
+ 		pthread_create(&data->philo[i].philo_thread,
+ 			NULL, philo_func, &data->philo[i]);
+ 		i++;
+diff --git a/philo/src/philo_fork.c b/philo/src/philo_fork.c
+index 9bccbbe..334f3a7 100644
+--- a/philo/src/philo_fork.c
++++ b/philo/src/philo_fork.c
+@@ -6,7 +6,7 @@
+ /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2023/03/19 03:47:08 by yumaohno          #+#    #+#             */
+-/*   Updated: 2023/03/21 19:57:10 by yumaohno         ###   ########.fr       */
++/*   Updated: 2023/03/21 20:02:25 by yumaohno         ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+@@ -29,7 +29,7 @@ int	lock_forks(t_philo	*philo)
+ 		pthread_mutex_unlock(philo->mtx_left_fork);
+ 		return (RET_ERROR);
+ 	}
+-	return (0);
++	return (RET_SUCCESS);
+ }
+ 
+ int	unlock_forks(t_philo *philo, int ret_flag)
+diff --git a/philo/src/print_message.c b/philo/src/print_message.c
+index cea0daa..a41b60b 100644
+--- a/philo/src/print_message.c
++++ b/philo/src/print_message.c
+@@ -6,7 +6,7 @@
+ /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2023/03/20 17:45:49 by yumaohno          #+#    #+#             */
+-/*   Updated: 2023/03/21 18:50:47 by yumaohno         ###   ########.fr       */
++/*   Updated: 2023/03/21 21:21:32 by yumaohno         ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 

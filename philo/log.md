@@ -24,11 +24,13 @@
 - stopやnum_eatenを参照するときはpthread_mutex_tの変数をlockしてから参照する
 	- done
 - philoが1人の時の処理
+	- done
 - destoy
 	- done
 - error
 	- data raceが起きている
 		- 原因はおそらくmonitorで競合してる
+		- done
 	- monitorでdeathを確認した後にもまだmutexがlockしていてdestroyできていない
 	- must_eat_numが与えられなかったときにdata->philo[i].num_eatenが-1以上になってそのまま処理が終了してしまう
 		- dataの構造体にmust_eat_numが引数で渡されたかどうかをもつflagを作って条件式に入れる(bool is_must_eat_num)
