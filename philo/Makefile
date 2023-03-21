@@ -25,6 +25,7 @@ SRCS =	src/main.c	\
 		src/philo_sleep.c	\
 		src/philo_think.c	\
 		src/print_message.c	\
+		src/get_time.c		\
 		src/destroy_thread.c
 
 OBJ_DIR = obj

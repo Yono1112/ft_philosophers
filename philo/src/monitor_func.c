@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/18 23:10:52 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/20 20:53:34 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 18:36:11 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,12 +73,15 @@ void	*monitor_func(void *arg)
 			pthread_mutex_unlock(&data->mtx_stop);
 			break ;
 		}
-		if (check_eat_num(data))
+		if (data->is_must_eat_num == true)
 		{
-			pthread_mutex_lock(&data->mtx_stop);
-			data->stop = true;
-			pthread_mutex_unlock(&data->mtx_stop);
-			break ;
+			if (check_eat_num(data))
+			{
+				pthread_mutex_lock(&data->mtx_stop);
+				data->stop = true;
+				pthread_mutex_unlock(&data->mtx_stop);
+				break ;
+			}
 		}
 	}
 	return (NULL);

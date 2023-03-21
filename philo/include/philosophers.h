@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 14:29:07 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/21 18:25:35 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ typedef struct s_data
 	time_t			time_to_eat;
 	time_t			time_to_sleep;
 	int				must_eat_num;
+	bool			is_must_eat_num;
 	t_philo			philo[MAX_PHILO];
 	pthread_mutex_t	mtx_fork[MAX_PHILO];
 	pthread_mutex_t	mtx_philo[MAX_PHILO];
