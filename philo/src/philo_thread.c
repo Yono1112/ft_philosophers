@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   create_thread.c                                    :+:      :+:    :+:   */
+/*   philo_thread.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 19:16:42 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/19 03:55:14y yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/22 17:10:08 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	create_thread(t_data *data)
 	int		i;
 
 	i = 0;
-	printf("start create_thread\n");
+	// printf("start create_thread\n");
 	data->start_time = get_time();
 	while (i < data->philo_num)
 	{
@@ -72,6 +72,6 @@ int	create_thread(t_data *data)
 		i++;
 	}
 	pthread_join(data->monitor_thread, NULL);
-	printf("end create_thread\n");
+	// printf("end create_thread\n");
 	return (RET_SUCCESS);
 }

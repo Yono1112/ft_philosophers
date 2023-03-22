@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init_philo.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 01:30:11 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/22 07:32:10 by marvin           ###   ########.fr       */
+/*   Updated: 2023/03/22 17:08:19 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int	init_philo(t_data *data)
 {
 	int	i;
 
-	printf("start init_philo\n");
+	// printf("start init_philo\n");
 	data->stop = false;
 	i = 0;
 	while (i < data->philo_num)
@@ -73,9 +73,6 @@ int	init_philo(t_data *data)
 		return (RET_ERROR);
 	if (pthread_mutex_init(&data->mtx_stop, NULL))
 		return (RET_ERROR);
-	printf("end init_philo\n");
-	// for (int j = 0; j < data->philo_num; j++)
-	// 	printf("philo.id:%d, philo.index:%d, philo.num_eaten: %d\n", data->philo[j].id, data->philo[j].index, data->philo[j].num_eaten);
-	// exit(0);
+	// printf("end init_philo\n");
 	return (RET_SUCCESS);
 }
