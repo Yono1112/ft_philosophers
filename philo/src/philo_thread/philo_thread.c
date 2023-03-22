@@ -6,27 +6,11 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 19:16:42 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/22 17:10:08 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/22 19:35:28 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers.h"
-
-// static void	*philo_action(t_philo *arg)
-// {
-// 	t_philo	*philo;
-// 	int		i;
-
-// 	i = 0;
-// 	philo = (t_philo *)arg;
-// 	printf("philo : %d\n", philo->data->philo_num);
-// 	while (i < 10)
-// 	{
-// 		printf("Hello philosopher[%d]\n", philo->id);
-// 		i++;
-// 	}
-// 	return (NULL);
-// }
 
 void	*philo_func(void *arg)
 {
