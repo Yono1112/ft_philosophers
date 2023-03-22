@@ -37,6 +37,7 @@ void	*philo_func(void *arg)
 		return (NULL);
 	if (philo->id % 2 == 0)
 		usleep(200);
+	// printf("philo[%d] start\n", philo->index);
 	while (1)
 	{
 		if (philo_eat(philo))
