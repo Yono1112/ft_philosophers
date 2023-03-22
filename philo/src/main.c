@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:54:09 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/22 17:08:39 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/22 17:13:07 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,13 @@ int	main(int argc, char **argv)
 	t_data	data;
 
 	if (!check_args(argc, argv, &data))
-		return (1);
+		return (RET_ERROR);
 	// printf("philo_num: %d, time_to_die: %ld, time_to_eat: %ld, time_to_sleep: %ld, must_eat: %d\n", data.philo_num, data.time_to_die, data.time_to_eat, data.time_to_sleep, data.must_eat_num);
 	if (init_philo(&data))
-		return (1);
+		return (RET_ERROR);
 	if (create_thread(&data))
-		return (1);
+		return (RET_ERROR);
 	if (destroy_thread(&data))
-		return (1);
-	return (0);
+		return (RET_ERROR);
+	return (RET_SUCCESS);
 }
