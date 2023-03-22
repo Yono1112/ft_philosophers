@@ -11,7 +11,7 @@
 		1. pthread_mutex_init(&fork)
 	1. philo_numまでループ
 	1. forkの割り当て
-1. create_thread
+1. philo_thread
 	1. pthread_create(philo)
 		1. 引数で渡す関数でthink,eat,sleepをループ
 	1. pthread_create(monitor)

@@ -16,17 +16,17 @@ CFLAGS = -Wall -Wextra -Werror
 RM = rm -rf
 DEBUG_FLAG = -fsanitize=thread
 SRCS =	src/main.c	\
-		src/check_args.c	\
-		src/init_philo.c	\
-		src/philo_thread.c	\
-		src/monitor_func.c	\
-		src/philo_eat.c		\
-		src/philo_fork.c	\
-		src/philo_sleep.c	\
-		src/philo_think.c	\
-		src/print_message.c	\
-		src/get_time.c		\
-		src/destroy_thread.c
+		src/check_args/check_args.c	\
+		src/init_philo/init_philo.c	\
+		src/philo_thread/philo_thread.c	\
+		src/philo_thread/monitor/monitor_func.c	\
+		src/philo_thread/philo_func/philo_eat.c		\
+		src/philo_thread/philo_func/philo_fork.c	\
+		src/philo_thread/philo_func/philo_sleep.c	\
+		src/philo_thread/philo_func/philo_think.c	\
+		src/philo_thread/philo_func/print_message.c	\
+		src/philo_thread/philo_func/get_time.c		\
+		src/philo_thread/destroy/destroy_thread.c
 
 OBJ_DIR = obj
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)
