@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/21 21:08:10 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/23 12:26:34 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,8 +50,8 @@ typedef struct s_data
 	pthread_mutex_t	mtx_philo[MAX_PHILO];
 	pthread_mutex_t	mtx_fork[MAX_PHILO];
 	pthread_mutex_t	mtx_print;
-	bool			stop;
-	pthread_mutex_t	mtx_stop;
+	bool			is_stop;
+	pthread_mutex_t	mtx_is_stop;
 	pthread_t		monitor_thread;
 }	t_data;
 

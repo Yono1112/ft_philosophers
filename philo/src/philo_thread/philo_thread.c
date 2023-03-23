@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 19:16:42 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/22 19:35:28 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/23 12:32:07 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,8 @@ void	*philo_func(void *arg)
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
-	if (!philo->data->start_time || !philo->last_eat_time)
-		return (NULL);
 	if (philo->id % 2 == 0)
 		usleep(200);
-	// printf("philo[%d] start\n", philo->index);
 	while (1)
 	{
 		if (philo_eat(philo))
@@ -39,8 +36,9 @@ int	create_thread(t_data *data)
 	int		i;
 
 	i = 0;
-	// printf("start create_thread\n");
 	data->start_time = get_time();
+	if (!data->start_time)
+		return (RET_ERROR);
 	while (i < data->philo_num)
 	{
 		data->philo[i].last_eat_time = data->start_time;
@@ -56,6 +54,5 @@ int	create_thread(t_data *data)
 		i++;
 	}
 	pthread_join(data->monitor_thread, NULL);
-	// printf("end create_thread\n");
 	return (RET_SUCCESS);
 }
