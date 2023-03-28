@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 19:16:42 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/23 12:32:07 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/28 15:51:38 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,10 @@ void	*philo_func(void *arg)
 
 	philo = (t_philo *)arg;
 	if (philo->id % 2 == 0)
+	{
+		print_message(philo, "is sleeping due to even philo");
 		usleep(200);
+	}
 	while (1)
 	{
 		if (philo_eat(philo))
@@ -31,7 +34,7 @@ void	*philo_func(void *arg)
 	return (NULL);
 }
 
-int	create_thread(t_data *data)
+int	philo_thread(t_data *data)
 {
 	int		i;
 

@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/18 23:10:52 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/23 12:26:34 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/23 12:36:43 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,6 @@ static bool	check_eat_num(t_data *data)
 		i++;
 	}
 	pthread_mutex_lock(&data->mtx_print);
-	// printf("All philosophers have eaten %d times\n", data->must_eat_num);
 	pthread_mutex_unlock(&data->mtx_print);
 	return (true);
 }

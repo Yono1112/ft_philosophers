@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo_fork.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/19 03:47:08 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/22 07:33:17 by marvin           ###   ########.fr       */
+/*   Updated: 2023/03/26 16:42:55 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,7 @@ int	unlock_forks(t_philo *philo, int ret_flag)
 {
 	pthread_mutex_unlock(philo->mtx_right_fork);
 	pthread_mutex_unlock(philo->mtx_left_fork);
+	print_message(philo, "has released forks");
 	if (ret_flag == RET_ERROR)
 		return (RET_ERROR);
 	else

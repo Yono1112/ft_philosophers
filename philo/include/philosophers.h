@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/23 12:26:34 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/28 15:52:01 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ typedef struct s_data
 
 bool	check_args(int argc, char **argv, t_data *data);
 int		init_philo(t_data *data);
-int		create_thread(t_data *data);
+int		philo_thread(t_data *data);
 void	*philo_func(void *arg);
 int		philo_eat(t_philo *philo);
 int		lock_forks(t_philo	*philo);

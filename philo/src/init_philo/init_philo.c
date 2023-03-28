@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 01:30:11 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/23 12:26:34 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/03/23 12:35:41 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,6 @@ int	init_philo(t_data *data)
 {
 	int	i;
 
-	// printf("start init_philo\n");
 	data->is_stop = false;
 	i = 0;
 	while (i < data->philo_num)
@@ -73,6 +72,5 @@ int	init_philo(t_data *data)
 		return (RET_ERROR);
 	if (pthread_mutex_init(&data->mtx_is_stop, NULL))
 		return (RET_ERROR);
-	// printf("end init_philo\n");
 	return (RET_SUCCESS);
 }
