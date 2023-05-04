@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/19 03:47:08 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/26 16:42:55 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/05/04 23:00:22 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	lock_forks(t_philo	*philo)
 {
 	pthread_mutex_lock(philo->mtx_right_fork);
-	if (print_message(philo, "has taken a fork") || philo->data->philo_num == 1)
+	if (print_message(philo, MESSAGE_FORK) || philo->data->philo_num == 1)
 	{
 		pthread_mutex_unlock(philo->mtx_right_fork);
 		if (philo->data->philo_num == 1)
@@ -23,7 +23,7 @@ int	lock_forks(t_philo	*philo)
 		return (RET_ERROR);
 	}
 	pthread_mutex_lock(philo->mtx_left_fork);
-	if (print_message(philo, "has taken a fork"))
+	if (print_message(philo, MESSAGE_FORK))
 	{
 		pthread_mutex_unlock(philo->mtx_right_fork);
 		pthread_mutex_unlock(philo->mtx_left_fork);
@@ -36,7 +36,6 @@ int	unlock_forks(t_philo *philo, int ret_flag)
 {
 	pthread_mutex_unlock(philo->mtx_right_fork);
 	pthread_mutex_unlock(philo->mtx_left_fork);
-	print_message(philo, "has released forks");
 	if (ret_flag == RET_ERROR)
 		return (RET_ERROR);
 	else

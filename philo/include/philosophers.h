@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/28 15:52:01 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/05/04 23:01:17 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,10 @@
 # define MAX_PHILO 200
 # define RET_ERROR 1
 # define RET_SUCCESS 0
+# define MESSAGE_EAT "is eating"
+# define MESSAGE_SLEEP "is sleeping"
+# define MESSAGE_THINK "is thinking"
+# define MESSAGE_FORK "has taken a fork"
 
 typedef struct s_philo
 {
