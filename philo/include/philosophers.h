@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/05/04 23:01:17 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/05/06 14:05:16 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,9 @@
 typedef struct s_philo
 {
 	struct s_data	*data;
-	int				id;
-	int				index;
-	int				num_eaten;
+	long			id;
+	long			index;
+	long			num_eaten;
 	time_t			last_eat_time;
 	pthread_t		philo_thread;
 	pthread_mutex_t	*mtx_right_fork;
@@ -43,11 +43,11 @@ typedef struct s_philo
 
 typedef struct s_data
 {
-	int				philo_num;
+	long			philo_num;
 	time_t			time_to_die;
 	time_t			time_to_eat;
 	time_t			time_to_sleep;
-	int				must_eat_num;
+	long			must_eat_num;
 	bool			is_must_eat_num;
 	time_t			start_time;
 	t_philo			philo[MAX_PHILO];
