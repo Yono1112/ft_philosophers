@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 13:56:46 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/05/06 14:05:16 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/05/07 18:04:28 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@
 # define MESSAGE_SLEEP "is sleeping"
 # define MESSAGE_THINK "is thinking"
 # define MESSAGE_FORK "has taken a fork"
+# define MESSAGE_DIE "died"
 
 typedef struct s_philo
 {

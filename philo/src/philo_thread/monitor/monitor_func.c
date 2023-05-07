@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/18 23:10:52 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/03/23 12:36:43 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/05/07 18:05:17 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,8 @@ static bool	check_death(t_data *data)
 		if (current_time - data->philo[i].last_eat_time > data->time_to_die)
 		{
 			pthread_mutex_lock(&data->mtx_print);
-			printf("%ld %d died\n", current_time - data->start_time, i + 1);
+			printf("%ld %d %s\n", current_time - data->start_time,
+				i + 1, MESSAGE_DIE);
 			pthread_mutex_unlock(&data->mtx_print);
 			pthread_mutex_unlock(&data->mtx_philo[i]);
 			return (true);
