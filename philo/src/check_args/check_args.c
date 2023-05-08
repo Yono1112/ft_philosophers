@@ -6,7 +6,7 @@
 /*   By: yumaohno <yumaohno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 22:30:28 by yumaohno          #+#    #+#             */
-/*   Updated: 2023/05/06 14:06:56 by yumaohno         ###   ########.fr       */
+/*   Updated: 2023/05/08 18:14:14 by yumaohno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,8 @@ bool	check_args(int argc, char **argv, t_data *data)
 	parse_args(data, argc, argv);
 	if (data->philo_num < 1 || data->philo_num > 200
 		|| data->time_to_die < 1 || data->time_to_eat < 1
-		|| data->time_to_sleep < 1 || data->must_eat_num < 0)
+		|| data->time_to_sleep < 1
+		|| (data->is_must_eat_num == true && data->must_eat_num <= 0))
 		return (false);
 	return (true);
 }
